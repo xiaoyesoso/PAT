@@ -1,3 +1,5 @@
+package pat1002;
+
 import java.util.Scanner;
 import java.util.TreeMap;
 import java.util.Vector;
@@ -11,13 +13,14 @@ class unit {
 
 public class Main {
 	public static void main(String[] args) {
-		Map<Integer, Double> myMap = new TreeMap<Integer, Double>(new Comparator<Integer>() {
-			@Override
-			public int compare(Integer o1, Integer o2) {
-				// TODO Auto-generated method stub
-				return o2 - o1;
-			}
-		});
+		Map<Integer, Double> myMap = new TreeMap<Integer, Double>(
+				new Comparator<Integer>() {
+					@Override
+					public int compare(Integer o1, Integer o2) {
+						// TODO Auto-generated method stub
+						return o2 - o1;
+					}
+				});
 		Scanner in = new Scanner(System.in);
 		for (int cnt = 0; cnt < 2; ++cnt) {
 			int num = in.nextInt();
@@ -44,6 +47,7 @@ public class Main {
 			System.out.printf(" %d %.1f", vv.get(i).n, vv.get(i).a);
 		}
 		System.out.println();
+		in.close();
 	}
 
 }

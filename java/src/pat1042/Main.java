@@ -1,3 +1,5 @@
+package pat1042;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -75,6 +77,7 @@ public class Main {
 				System.out.print(" " + items[i].name);
 			}
 		}
+		in.close();
 	}
 
 }

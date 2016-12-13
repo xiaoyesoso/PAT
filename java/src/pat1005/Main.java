@@ -1,10 +1,13 @@
+package pat1005;
+
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String strarr[] = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+		String strarr[] = { "zero", "one", "two", "three", "four", "five",
+				"six", "seven", "eight", "nine" };
 		Scanner in = new Scanner(System.in);
 		String str = in.nextLine();
 		int NumSum = 0;
@@ -18,6 +21,7 @@ public class Main {
 			else
 				System.out.print(" " + strarr[StrSum.charAt(i) - '0']);
 		}
+		in.close();
 	}
 
 }
