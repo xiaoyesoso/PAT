@@ -1,1 +1,1 @@
-为了熟悉Python，所以用Java刷PAT。希望对想用Java刷PAT的同学有帮助。同时，由于对于Java不是特别精通，所以希望大家集思广益
+PAT
